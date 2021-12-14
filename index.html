@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>faq accordion card</title>
+  <meta name="viewport" content="width = device-width, intial-scale=1.0">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <img class="box-image" src="images/illustration-box-desktop.svg" alt="box-image">
+  <!-- below html structure is written using bootstrap grid layout -->
+  <!-- to know about this layout go to bootstrap website => docs => layout => grid -->
+  <div class="fluid-container">
+    <div class="row">
+      <!-- image side -->
+      <div class="col-md-6 topofwoman">
+        <div class="woman-image-mobile">
+          <img src="images/illustration-woman-online-mobile.svg" alt="woman-image">
+          <img class="shadow" src="images/bg-pattern-mobile.svg" alt="background-pattern">
+        </div>
+
+        <div class="desktop-image">
+
+          <img class="woman-image" src="images/illustration-woman-online-desktop.svg" alt="women-image">
+          <img class="shadow-desktop" src="images/bg-pattern-desktop.svg" alt="background-pattern">
+        </div>
+
+      </div>
+        <!-- question side -->
+      <div class="col-md-6 faq ">
+        <h1>FAQ</h1>
+        <div class="firstdrop">
+          <p class="question">How many team members can I invite ? <img class="arrow arrow1" src="images/icon-arrow-down.svg" alt="arrow-image"></p>
+          <div class="answer answer1">
+            <P>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+          </div>
+
+        </div>
+        <hr>
+        <div class="firstdrop">
+          <p class="question">What is the maximum file upload size ?<img class="arrow arrow2" src="images/icon-arrow-down.svg" alt="arrow-image"></p>
+          <div class="answer answer2">
+            <p> No more than 2GB. All files in your account must fit your allotted storage space. </p>
+
+          </div>
+        </div>
+
+        <hr>
+        <div class="firstdrop">
+          <p class="question">How do I reset my password ?<img class="arrow arrow3" src="images/icon-arrow-down.svg" alt="arrow-image"></p>
+          <div class="answer answer3">
+            <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+
+          </div>
+        </div>
+
+        <hr>
+        <div class="firstdrop">
+          <p class="question">Can I cancel my subscription ?<img class="arrow arrow4" src="images/icon-arrow-down.svg" alt="arrow-image"></p>
+          <div class="answer answer4">
+            <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+        </div>
+
+        <hr>
+        <div class="firstdrop">
+          <p class="question">Do you provide additional support ?<img class="arrow arrow5" src="images/icon-arrow-down.svg" alt="arrow-image"></p>
+
+          <div class="answer answer5">
+            <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </div>
+
+        <hr>
+
+
+      </div>
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
